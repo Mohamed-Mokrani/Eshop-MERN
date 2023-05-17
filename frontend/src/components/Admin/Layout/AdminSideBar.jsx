@@ -8,7 +8,7 @@ import { HiOutlineUserGroup } from "react-icons/hi";
 import { BsHandbag } from "react-icons/bs";
 import { MdOutlineLocalOffer } from "react-icons/md";
 import { AiOutlineSetting } from "react-icons/ai";
-// /* MOHAMED MOKRANI */
+
 
 const AdminSideBar = ({ active }) => {
   return (
