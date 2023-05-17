@@ -9,6 +9,7 @@ import { BsHandbag } from "react-icons/bs";
 import { MdOutlineLocalOffer } from "react-icons/md";
 import { AiOutlineSetting } from "react-icons/ai";
 // /* MOHAMED MOKRANI */
+// /* Copyrights MOHAMED MOKRANI */
 const AdminSideBar = ({ active }) => {
   return (
     <div className="w-full h-[90vh] bg-white shadow-sm overflow-y-scroll sticky top-0 left-0 z-10">
