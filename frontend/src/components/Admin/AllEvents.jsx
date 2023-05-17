@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 import {  AiOutlineEye } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { server } from "../../server";
-
+// /* Copyrights MOHAMED MOKRANI */
 const AllEvents = () => {
   const [events, setEvents] = useState([]);
   useEffect(() => {

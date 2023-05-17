@@ -9,7 +9,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { getAllOrdersOfAdmin } from "../../redux/actions/order";
 import Loader from "../Layout/Loader";
 import { getAllSellers } from "../../redux/actions/sellers";
-
+// /* Copyrights MOHAMED MOKRANI */
 const AdminDashboardMain = () => {
   const dispatch = useDispatch();
 
