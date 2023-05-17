@@ -11,7 +11,7 @@ import {
   footerProductLinks,
   footerSupportLinks,
 } from "../../static/data";
-
+// /* Copyrights MOHAMED MOKRANI */
 const Footer = () => {
   return (
     <div className="bg-[#000] text-white">
