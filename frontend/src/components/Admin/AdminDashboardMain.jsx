@@ -17,10 +17,6 @@ const AdminDashboardMain = () => {
   const { adminOrders,adminOrderLoading } = useSelector((state) => state.order);
   const { sellers } = useSelector((state) => state.seller);
 
-  useEffect(() => {
-    dispatch(getAllOrdersOfAdmin());
-    dispatch(getAllSellers());
-  }, []);
 
    const adminEarning = adminOrders && adminOrders.reduce((acc,item) => acc + item.totalPrice * .10, 0);
 
